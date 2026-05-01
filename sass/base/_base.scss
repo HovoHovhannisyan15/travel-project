@@ -1,0 +1,23 @@
+// Подключаем шрифты
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #F6F6F6;
+    color: #0F1F1C;
+}
+.container {
+    max-width: $--container-width;
+    padding: $--container-padding;
+    margin: 0 auto;
+}
+.container-right {
+    
+}
+
+
+
+.block {
+    height: 200px;
+    background-color: brown;
+}
