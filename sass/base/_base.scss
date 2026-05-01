@@ -12,10 +12,8 @@ body {
     margin: 0 auto;
 }
 .container-right {
-    
+    padding-left: calc( (100% - $--container-width)/2 + $--container-padding);
 }
-
-
 
 .block {
     height: 200px;
