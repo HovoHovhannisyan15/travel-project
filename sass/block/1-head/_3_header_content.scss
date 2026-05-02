@@ -1,0 +1,43 @@
+.header__content {
+}
+
+.header__bage {
+    margin-bottom: 7px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 15px;
+    padding: 11px 30px;
+}
+
+.header__title {
+    font-size: 55px;
+    margin-bottom: 30px;
+}
+.header__text {
+    margin-bottom: 68px;
+    font-size: 25px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.5);
+}
+.header__btn {
+    display: inline-block;
+    padding: 27px 48px;
+
+    background: linear-gradient(129.54deg, #ff7b4e 15.57%, #ff584e 95.03%), #fff;
+    border-radius: 27px;
+
+    font-size: 25px;
+    font-weight: 600;
+    transition: color 0.2s ease-in;
+
+    &:hover {
+        transition: color 0.2s ease-in;
+        color: rgb(245, 233, 127);
+    }
+    &:active {
+        position: relative;
+        top: 1px;
+    }
+}
