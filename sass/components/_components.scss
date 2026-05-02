@@ -1,3 +1,22 @@
 .none {
     display: none !important;
 }
+
+.btn {
+    display: inline-block;
+    padding: 13px 44px;
+    background: linear-gradient(129.54deg, #ff7b4e 15.57%, #ff584e 95.03%), #fff;
+    border-radius: 100px;
+
+    font-size: 15px;
+    font-weight: 500;
+    transition: color 0.2s ease-in;
+}
+.btn:hover {
+    transition: color 0.2s ease-in;
+    color: rgb(245, 233, 127);
+}
+.btn:active {
+    position: relative;
+    top: 1px;
+}
