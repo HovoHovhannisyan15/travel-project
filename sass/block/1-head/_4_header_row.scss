@@ -1,0 +1,17 @@
+.header__row {
+    display: flex;
+}
+
+.header__img {
+    position: absolute;
+    flex-grow: 1;
+
+    img {
+        position: relative;
+        top: -181px;
+        right: -475px;
+        max-width: unset;
+        width: 894px;
+        height: 940px;
+    }
+}
