@@ -15,8 +15,21 @@
 .btn:hover {
     transition: color 0.2s ease-in;
     color: rgb(245, 233, 127);
+    
+    &:active {
+        position: relative;
+        top: 1px;
+    }
 }
-.btn:active {
-    position: relative;
-    top: 1px;
+.btn__destinations {
+    display: inline-block;
+    padding: 25px 45px;
+    background: linear-gradient(129.54deg, #ff7b4e 15.57%, #ff584e 95.03%), #fff;
+    border-radius: 27px;
+
+    font-size: 20px;
+    font-weight: 600;
+    transition: color 0.2s ease-in;
+
+    color: #fff;
 }
