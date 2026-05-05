@@ -2,6 +2,8 @@
     &>img:first-of-type {
         margin-left: 87px;
     }
+
+    position: relative;
 }
 
 .slider__item {
@@ -21,4 +23,40 @@
         cursor: pointer;
         margin: 0;
     }
+}
+
+// slider button 
+
+.slider__btn {
+
+
+    display: block;
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+
+    background: linear-gradient(129.54deg, #ff7b4e 15.57%, #ff584e 95.03%), #8b8b8b;
+}
+
+.slider__btn--prev {
+    padding-left: 26px;
+    justify-content: flex-start;
+
+    position: absolute;
+    top: 36%;
+    transform: translateY(-50%);
+
+}
+
+.slider__btn--next {
+    position: absolute;
+    right: 3px;
+    top: 36%;
+    transform: translateY(-50%);
+
+    padding-right: 26px;
+    justify-content: flex-end;
 }
