@@ -1,0 +1,24 @@
+.slider {
+    &>img:first-of-type {
+        margin-left: 87px;
+    }
+}
+
+.slider__item {
+    margin-right: 30px;
+    width: 235px;
+    height: 302px;
+    object-fit: cover;
+    border-radius: 35px;
+    transition: all 0.4s ease-in;
+    box-shadow: 2px 9px 20px 0px rgba(34, 60, 80, 0.2);
+
+
+    &:hover {
+        transition: all 0.2s ease-in;
+        width: 280px;
+        height: 356px;
+        cursor: pointer;
+        margin: 0;
+    }
+}

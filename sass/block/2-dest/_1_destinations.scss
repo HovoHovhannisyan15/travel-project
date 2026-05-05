@@ -2,15 +2,18 @@
     padding: 96px 0 100px;
     overflow-x: hidden;
 }
-.container-right {
-}
+
+.container-right {}
+
 .destinations__row {
     display: flex;
     column-gap: 50px;
 }
+
 .destinations__content {
     max-width: 456px;
 }
+
 .destinations__slider {
     width: 1110px;
     flex-shrink: 0;
