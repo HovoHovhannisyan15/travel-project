@@ -1,0 +1,41 @@
+.customers {
+    padding: 100px 0 133px;
+}
+
+.customers__row {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 68px;
+}
+
+.customers__img {
+    max-width: 478px;
+
+    img {
+        border-radius: 60px;
+    }
+}
+
+.customers__content {}
+
+.customers__title {
+    margin-bottom: 35px;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.review {}
+
+.review__client {}
+
+.review__client-avatar {}
+
+.review__client-desc {}
+
+.review__client-desc-name {}
+
+.review__client-desc-country {}
+
+.review__text {}
+
+.review__rating {}
