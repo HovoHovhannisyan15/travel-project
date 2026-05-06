@@ -11,16 +11,19 @@
     font-size: 15px;
     font-weight: 500;
     transition: color 0.2s ease-in;
+    color: #fff;
 }
+
 .btn:hover {
     transition: color 0.2s ease-in;
     color: rgb(245, 233, 127);
-    
+
     &:active {
         position: relative;
         top: 1px;
     }
 }
+
 .btn__destinations {
     display: inline-block;
     padding: 25px 45px;
