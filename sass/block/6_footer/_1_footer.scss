@@ -1,0 +1,26 @@
+.footer {
+    padding: 56px 0 74px;
+
+    a {
+        color: $--secondary;
+    }
+}
+
+.nav__list--footer {
+    a.active::after {
+        display: none;
+    }
+
+    a.active::before {
+        display: none;
+    }
+
+    a.active,
+    a:hover {
+        color: $--orange;
+    }
+}
+
+.btn__footer {
+    color: #fff !important;
+}

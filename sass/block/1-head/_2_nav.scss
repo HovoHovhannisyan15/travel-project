@@ -15,7 +15,9 @@
     font-size: 15px;
     font-weight: 500;
 
-    a {position: relative;}
+    a {
+        position: relative;
+    }
 
     a.active::after,
     a:hover::after {
@@ -30,6 +32,7 @@
         left: 0;
     }
 }
+
 .nav__login {
     display: flex;
     align-items: center;
@@ -44,6 +47,10 @@
     font-weight: 700;
 
     a {
-        color: inherit;
+        color: inherit !important;
     }
+}
+
+.logo--footer {
+    color: #ff7c4e;
 }
